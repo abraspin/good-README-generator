@@ -48,7 +48,8 @@ function generateMarkdown(data) {
   }
   const thisLicenseStringWithSpaces = thisLicense.split("_").join(" ");
   /////////////////////////////////////////////
-  return `# ${data.title} ![${thisLicense} License](https://img.shields.io/badge/License-${thisLicense}-brightgreen)
+  return `# ${data.title} 
+  ![${thisLicense} License](https://img.shields.io/badge/License-${thisLicense}-brightgreen)
 
   ## Description 
 
@@ -77,7 +78,7 @@ function generateMarkdown(data) {
   
   ## License
   
-  ${data.license}
+  This application is covered by [${thisLicenseStringWithSpaces}](${thisLicenseLink})  
 
   
   ## Contributing
@@ -98,7 +99,7 @@ function generateMarkdown(data) {
   
   ---
   
-  [ ${thisLicenseStringWithSpaces}](${thisLicenseLink})  
+ //TODO: what goes here? Trademark me?
  
 `;
 }
