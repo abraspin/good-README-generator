@@ -25,12 +25,22 @@ const questions = [
   //   name: "usage",
   //   message: "What is the Usage information?",
   // },
-  // {
-  //   type: "checkbox",
-  //   name: "license",
-  //   message: "Choose License options:",
-  //   choices: ["license1", "license2", "license3", "license4"],
-  // },
+  {
+    //TODO: Should we only let them select one? or multiple?
+    type: "list",
+    name: "license",
+    message: "Choose License options:",
+    choices: [
+      "GNU AGPLv3",
+      "GNU GPLv3",
+      "GNU LGPLv3",
+      "Mozilla Public License 2.0",
+      "Apache License 2.0",
+      "MIT License",
+      "Boost Software License 1.0",
+      "The Unlicense",
+    ],
+  },
   // {
   //   type: "editor",
   //   name: "contributing",
@@ -54,9 +64,6 @@ const questions = [
   },
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {}
-
 // function to initialize program
 function init() {
   console.log(
@@ -65,17 +72,10 @@ function init() {
 
   //prompt the user once for each element in questions array
   inquirer.prompt(questions).then(function (data) {
-    // console.log("You entered:");
-    // data.forEach((element) => console.log(element));
-    // for (const [key, value] of data) {console.log(`${key}: ${value}`);}
-    // console.log(data);
-
     //filename will be user-entered title-README.md
     const filename = `${data.title.toLowerCase().split(" ").join("-")}-README.md`;
-    // console.log("filename", filename);
 
     const fileContent = generateMarkdown(data);
-    // console.log("fileContent", fileContent);
 
     // write the README file!
     fs.writeFile(filename, fileContent, function (err) {
