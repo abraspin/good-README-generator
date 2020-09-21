@@ -67,7 +67,7 @@ const questions = [
 // function to initialize program
 function init() {
   console.log(
-    "\n Welcome! Let's make a good README! \n Some prompts will open your text editor, just type your response then exit the editor to continue!"
+    "\n Welcome! Let's make a good README! \n Some prompts will open your text editor, just type your response then exit the editor to continue! \n"
   );
 
   //prompt the user once for each element in questions array
