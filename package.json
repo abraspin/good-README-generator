@@ -1,8 +1,7 @@
 {
-  //TODO: change the app name?
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command-line application that dynamically generates a high-quality README.md based on user input",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abraspin/good-README-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abraspin/good-README-generator/issues"
+  },
+  "homepage": "https://github.com/abraspin/good-README-generator#readme"
 }
