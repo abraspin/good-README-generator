@@ -10,37 +10,37 @@ const questions = [
     message: "What is the Title of your project?",
   },
 
-  {
-    type: "input",
-    name: "description",
-    message: "What is your project Description?",
-  },
-  {
-    type: "editor",
-    name: "installation",
-    message: "What are the Installation instructions?",
-  },
-  {
-    type: "editor",
-    name: "usage",
-    message: "What is the Usage information?",
-  },
-  {
-    type: "checkbox",
-    name: "license",
-    message: "Choose License options:",
-    choices: ["license1", "license2", "license3", "license4"],
-  },
-  {
-    type: "editor",
-    name: "contributing",
-    message: "What are the Contribution guidelines?",
-  },
-  {
-    type: "editor",
-    name: "tests",
-    message: "Enter Testing instructions:",
-  },
+  // {
+  //   type: "input",
+  //   name: "description",
+  //   message: "What is your project Description?",
+  // },
+  // {
+  //   type: "editor",
+  //   name: "installation",
+  //   message: "What are the Installation instructions?",
+  // },
+  // {
+  //   type: "editor",
+  //   name: "usage",
+  //   message: "What is the Usage information?",
+  // },
+  // {
+  //   type: "checkbox",
+  //   name: "license",
+  //   message: "Choose License options:",
+  //   choices: ["license1", "license2", "license3", "license4"],
+  // },
+  // {
+  //   type: "editor",
+  //   name: "contributing",
+  //   message: "What are the Contribution guidelines?",
+  // },
+  // {
+  //   type: "editor",
+  //   name: "tests",
+  //   message: "Enter Testing instructions:",
+  // },
 
   {
     type: "input",
