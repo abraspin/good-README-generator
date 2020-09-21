@@ -16,12 +16,12 @@ const questions = [
     message: "What is your project Description?",
   },
   {
-    type: "input",
+    type: "editor",
     name: "installation",
     message: "What are the Installation instructions?",
   },
   {
-    type: "input",
+    type: "editor",
     name: "usage",
     message: "What is the Usage information?",
   },
@@ -32,12 +32,12 @@ const questions = [
     choices: ["license1", "license2", "license3", "license4"],
   },
   {
-    type: "input",
+    type: "editor",
     name: "contributing",
     message: "What are the Contribution guidelines?",
   },
   {
-    type: "input",
+    type: "editor",
     name: "tests",
     message: "Enter Testing instructions:",
   },
@@ -59,7 +59,9 @@ function writeToFile(fileName, data) {}
 
 // function to initialize program
 function init() {
-  console.log("Welcome! Let's make a good README! \n");
+  console.log(
+    "\n Welcome! Let's make a good README! \n Some prompts will open your text editor, just type your response then exit the editor to continue!"
+  );
 
   //prompt the user once for each element in questions array
   inquirer.prompt(questions).then(function (data) {
