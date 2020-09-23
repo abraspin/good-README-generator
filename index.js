@@ -10,21 +10,21 @@ const questions = [
     message: "What is the Title of your project?",
   },
 
-  // {
-  //   type: "input",
-  //   name: "description",
-  //   message: "What is your project Description?",
-  // },
-  // {
-  //   type: "editor",
-  //   name: "installation",
-  //   message: "What are the Installation instructions?",
-  // },
-  // {
-  //   type: "editor",
-  //   name: "usage",
-  //   message: "What is the Usage information?",
-  // },
+  {
+    type: "input",
+    name: "description",
+    message: "What is your project Description?",
+  },
+  {
+    type: "editor",
+    name: "installation",
+    message: "What are the Installation instructions?",
+  },
+  {
+    type: "editor",
+    name: "usage",
+    message: "What is the Usage information?",
+  },
   {
     //TODO: Should we only let them select one? or multiple?
     type: "list",
@@ -41,16 +41,16 @@ const questions = [
       "The Unlicense",
     ],
   },
-  // {
-  //   type: "editor",
-  //   name: "contributing",
-  //   message: "What are the Contribution guidelines?",
-  // },
-  // {
-  //   type: "editor",
-  //   name: "tests",
-  //   message: "Enter Testing instructions:",
-  // },
+  {
+    type: "editor",
+    name: "contributing",
+    message: "What are the Contribution guidelines?",
+  },
+  {
+    type: "editor",
+    name: "tests",
+    message: "Enter Testing instructions:",
+  },
 
   {
     type: "input",
