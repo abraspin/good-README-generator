@@ -1,51 +1,67 @@
-# Example Project Title 
+# Good README Generator
   ![MIT_License License](https://img.shields.io/badge/License-MIT_License-brightgreen)
+  ![Repo-Code_Composition](https://img.shields.io/github/languages/top/abraspin/good-README-generator)  
+Command-line application that dynamically generates a high-quality README.md based on user input.
 
-  ## Description 
 
-  Demonstration of the Good README generator!
- 
+---
 
   ## Table of Contents
   
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
+  * [User Story](#User-Story)
+  * [App in Action](#App-in-Action)
+  * [Example README](#Example-README)
+  * [Contents](#Contents)
   * [Tests](#tests)
-  * [Questions](#questions)
+  * [Author](#Author)
+  * [License](#License)
   
-  
-  ## Installation
-  
-  All you have to do is run it on the command line!
-  
-  
-  ## Usage 
-  
-  This is a "Command Line Interace" application - interact via typing!
+---
 
-  
-  
-  ## License
-  
-  This application is covered by [MIT License](https://choosealicense.com/licenses/mit/)  
+## User Story
+>AS A developer
+>I WANT a README generator
+>SO THAT can quickly create a professional README for a new project
 
-  
-  ## Contributing
-  
-  Many repos abide by "The Contributor Covenant"
+---
 
 
-  ## Tests
+## Usage 
   
-  You can Provide instructions to users on testing here!  
-  
+This is a "Command Line Interace" application running in a Node.js runtime environment.
+
+---
+
+## App in Action
+![example-video](./app-demo.mp4)
+
+### Example README
+![Screenshot of deployed app](./app-screenshot.png)
 
 
-  ## Questions
+---
 
-  [See my GitHub repo!](https://github.com/myrepo)  
-  [Email me!](myemail@email.com)  
+## Contents
+**Files include:**
+* Index JS page
+* Sample Screenshot of App 
+* App Demo Video
+* Utilities
+* Sample README
+* Node.js JSON Packages
+* This README file
 
- 
+---
+
+## Author
+Abraham Spindel  
+
+---
+
+## License
+* [Node.js Project Licensing](https://raw.githubusercontent.com/nodejs/node/master/LICENSE) 
+* npm [Artistic License 2.0] (https://www.npmjs.com/policies/npm-license)
+* npm Inquirer: Copyright (c) 2016 Simon Boudrias (twitter: @vaxilart) Licensed under the [MIT license](https://choosealicense.com/licenses/mit/).
+
+
+
