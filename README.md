@@ -33,7 +33,7 @@ This is a "Command Line Interace" application running in a Node.js runtime envir
 ---
 
 ## App in Action
-![example-video](./app-demo.mp4)
+![example-video](./app-demo.gif)
 
 ### Example README
 ![Screenshot of deployed app](./app-screenshot.png)
