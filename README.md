@@ -33,7 +33,7 @@ This is a "Command Line Interace" application running in a Node.js runtime envir
 ---
 
 ## App in Action
-![example-video](https://abraspin.github.io/good-README-generator/app-demo.gif)
+![example-video](./app-demo.gif)
 
 
 ## Example README
