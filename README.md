@@ -6,22 +6,22 @@ Command-line application that dynamically generates a high-quality README.md bas
 
 ---
 
-  ## Table of Contents
+## Table of Contents
   
-  * [User Story](#User-Story)
-  * [App in Action](#App-in-Action)
-  * [Example README](#Example-README)
-  * [Contents](#Contents)
-  * [Tests](#tests)
-  * [Author](#Author)
-  * [License](#License)
+* [User Story](#User-Story)
+* [App in Action](#App-in-Action)
+* [Example README](#Example-README)
+* [Contents](#Contents)
+* [Tests](#tests)
+* [Author](#Author)
+* [License](#License)
   
 ---
 
 ## User Story
->AS A developer
->I WANT a README generator
->SO THAT can quickly create a professional README for a new project
+>AS A developer  
+>I WANT a README generator  
+>SO THAT can quickly create a professional README for a new project  
 
 ---
 
@@ -33,9 +33,10 @@ This is a "Command Line Interace" application running in a Node.js runtime envir
 ---
 
 ## App in Action
-![example-video](./app-demo.mp4)
+![example-video](https://abraspin.github.io/good-README-generator/app-demo.gif)
 
-### Example README
+
+## Example README
 ![Screenshot of deployed app](./app-screenshot.png)
 
 
@@ -60,7 +61,7 @@ Abraham Spindel
 
 ## License
 * [Node.js Project Licensing](https://raw.githubusercontent.com/nodejs/node/master/LICENSE) 
-* npm [Artistic License 2.0] (https://www.npmjs.com/policies/npm-license)
+* Node Package Manager (npm) [Artistic License 2.0](https://www.npmjs.com/policies/npm-license)
 * npm Inquirer: Copyright (c) 2016 Simon Boudrias (twitter: @vaxilart) Licensed under the [MIT license](https://choosealicense.com/licenses/mit/).
 
 
