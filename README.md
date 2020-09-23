@@ -19,9 +19,9 @@ Command-line application that dynamically generates a high-quality README.md bas
 ---
 
 ## User Story
->AS A developer
->I WANT a README generator
->SO THAT can quickly create a professional README for a new project
+>AS A developer  
+>I WANT a README generator  
+>SO THAT can quickly create a professional README for a new project  
 
 ---
 
