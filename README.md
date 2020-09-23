@@ -9,8 +9,8 @@ Command-line application that dynamically generates a high-quality README.md bas
   ## Table of Contents
   
   * [User Story](#User-Story)
-  * [App in Action](#App in Action)
-  * [Example README](#Example README)
+  * [App in Action](#App-in-Action)
+  * [Example README](#Example-README)
   * [Contents](#Contents)
   * [Tests](#tests)
   * [Author](#Author)
