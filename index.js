@@ -8,12 +8,24 @@ const questions = [
     type: "input",
     name: "title",
     message: "What is the Title of your project?",
+    validate: (title) => {
+      if (title) {
+        return true;
+      }
+      return "You must enter a title!";
+    },
   },
 
   {
     type: "input",
     name: "description",
     message: "What is your project Description?",
+    validate: (description) => {
+      if (description) {
+        return true;
+      }
+      return "You must enter a project description!";
+    },
   },
   {
     type: "editor",
@@ -56,11 +68,23 @@ const questions = [
     type: "input",
     name: "username",
     message: "Enter your GitHub username:",
+    validate: (username) => {
+      if (username) {
+        return true;
+      }
+      return "You must enter a username!";
+    },
   },
   {
     type: "input",
     name: "email",
     message: "Enter your Email Address to be contacted with questions:",
+    validate: (email) => {
+      if (email) {
+        return true;
+      }
+      return "You must enter an e-mail address!";
+    },
   },
 ];
 
