@@ -33,7 +33,7 @@ This is a "Command Line Interace" application running in a Node.js runtime envir
 ---
 
 ## App in Action
-![example-video](https://abraspin.github.io/good-README-generator/app-demo.gif)
+![example-video](./app-demo.gif)
 
 
 ## Example README
@@ -46,7 +46,7 @@ This is a "Command Line Interace" application running in a Node.js runtime envir
 **Files include:**
 * Index JS page
 * Sample Screenshot of App 
-* App Demo Video
+* App Demo GIF
 * Utilities
 * Sample README
 * Node.js JSON Packages
